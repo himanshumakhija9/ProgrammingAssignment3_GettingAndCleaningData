@@ -5,85 +5,86 @@ The code script reads the data and summarizes the findings. Final data is export
 
 Following fields are given in the tidy set:-
 
-"subject_id"
-"activity_id"
-"activity_name"
-"timeBodyAccelerometer-mean()-X"
-"timeBodyAccelerometer-mean()-Y"
-"timeBodyAccelerometer-mean()-Z"
-"timeGravityAccelerometer-mean()-X"
-"timeGravityAccelerometer-mean()-Y"
-"timeGravityAccelerometer-mean()-Z"
-"timeBodyAccelerometerJerk-mean()-X"
-"timeBodyAccelerometerJerk-mean()-Y"
-"timeBodyAccelerometerJerk-mean()-Z"
-"timeBodyGyroscope-mean()-X"
-"timeBodyGyroscope-mean()-Y"
-"timeBodyGyroscope-mean()-Z"
-"timeBodyGyroscopeJerk-mean()-X"
-"timeBodyGyroscopeJerk-mean()-Y"
-"timeBodyGyroscopeJerk-mean()-Z"
-"timeBodyAccelerometerMagnitude-mean()"
-"timeGravityAccelerometerMagnitude-mean()"
-"timeBodyAccelerometerJerkMagnitude-mean()"
-"timeBodyGyroscopeMagnitude-mean()"
-"timeBodyGyroscopeJerkMagnitude-mean()"
-"frequencyBodyAccelerometer-mean()-X"
-"frequencyBodyAccelerometer-mean()-Y"
-"frequencyBodyAccelerometer-mean()-Z"
-"frequencyBodyAccelerometer-meanFreq()-X"
-"frequencyBodyAccelerometer-meanFreq()-Y"
-"frequencyBodyAccelerometer-meanFreq()-Z"
-"frequencyBodyAccelerometerJerk-mean()-X"
-"frequencyBodyAccelerometerJerk-mean()-Y"
-"frequencyBodyAccelerometerJerk-mean()-Z"
-"frequencyBodyAccelerometerJerk-meanFreq()-X"
-"frequencyBodyAccelerometerJerk-meanFreq()-Y"
-"frequencyBodyAccelerometerJerk-meanFreq()-Z"
-"frequencyBodyGyroscope-mean()-X"
-"frequencyBodyGyroscope-mean()-Y"
-"frequencyBodyGyroscope-mean()-Z"
-"frequencyBodyGyroscope-meanFreq()-X"
-"frequencyBodyGyroscope-meanFreq()-Y"
-"frequencyBodyGyroscope-meanFreq()-Z"
-"frequencyBodyAccelerometerMagnitude-mean()"
-"frequencyBodyAccelerometerMagnitude-meanFreq()"
-"frequencyBodyAccelerometerJerkMagnitude-mean()"
-"frequencyBodyAccelerometerJerkMagnitude-meanFreq()"
-"frequencyBodyGyroscopeMagnitude-mean()"
-"frequencyBodyGyroscopeMagnitude-meanFreq()"
-"frequencyBodyGyroscopeJerkMagnitude-mean()"
-"frequencyBodyGyroscopeJerkMagnitude-meanFreq()"
-"timeBodyAccelerometer-std()-X"
-"timeBodyAccelerometer-std()-Y"
-"timeBodyAccelerometer-std()-Z"
-"timeGravityAccelerometer-std()-X"
-"timeGravityAccelerometer-std()-Y"
-"timeGravityAccelerometer-std()-Z"
-"timeBodyAccelerometerJerk-std()-X"
-"timeBodyAccelerometerJerk-std()-Y"
-"timeBodyAccelerometerJerk-std()-Z"
-"timeBodyGyroscope-std()-X"
-"timeBodyGyroscope-std()-Y"
-"timeBodyGyroscope-std()-Z"
-"timeBodyGyroscopeJerk-std()-X"
-"timeBodyGyroscopeJerk-std()-Y"
-"timeBodyGyroscopeJerk-std()-Z"
-"timeBodyAccelerometerMagnitude-std()"
-"timeGravityAccelerometerMagnitude-std()"
-"timeBodyAccelerometerJerkMagnitude-std()"
-"timeBodyGyroscopeMagnitude-std()"
-"timeBodyGyroscopeJerkMagnitude-std()"
-"frequencyBodyAccelerometer-std()-X"
-"frequencyBodyAccelerometer-std()-Y"
-"frequencyBodyAccelerometer-std()-Z"
-"frequencyBodyAccelerometerJerk-std()-X"
-"frequencyBodyAccelerometerJerk-std()-Y"
-"frequencyBodyAccelerometerJerk-std()-Z"
-"frequencyBodyGyroscope-std()-X"
-"frequencyBodyGyroscope-std()-Y"
-"frequencyBodyGyroscope-std()-Z"
-"frequencyBodyAccelerometerMagnitude-std()"
-"frequencyBodyAccelerometerJerkMagnitude-std()"
-"frequencyBodyGyroscopeMagnitude-std()"
-"frequencyBodyGyroscopeJerkMagnitude-std()"
+Colname	Length	Class
+activity_id	180	numeric
+activity_name	180	character
+subject_id	180	numeric
+timeBodyAccelerometer-mean()-X	180	numeric
+timeBodyAccelerometer-mean()-Y	180	numeric
+timeBodyAccelerometer-mean()-Z	180	numeric
+timeGravityAccelerometer-mean()-X	180	numeric
+timeGravityAccelerometer-mean()-Y	180	numeric
+timeGravityAccelerometer-mean()-Z	180	numeric
+timeBodyAccelerometerJerk-mean()-X	180	numeric
+timeBodyAccelerometerJerk-mean()-Y	180	numeric
+timeBodyAccelerometerJerk-mean()-Z	180	numeric
+timeBodyGyroscope-mean()-X	180	numeric
+timeBodyGyroscope-mean()-Y	180	numeric
+timeBodyGyroscope-mean()-Z	180	numeric
+timeBodyGyroscopeJerk-mean()-X	180	numeric
+timeBodyGyroscopeJerk-mean()-Y	180	numeric
+timeBodyGyroscopeJerk-mean()-Z	180	numeric
+timeBodyAccelerometerMagnitude-mean()	180	numeric
+timeGravityAccelerometerMagnitude-mean()	180	numeric
+timeBodyAccelerometerJerkMagnitude-mean()	180	numeric
+timeBodyGyroscopeMagnitude-mean()	180	numeric
+timeBodyGyroscopeJerkMagnitude-mean()	180	numeric
+frequencyBodyAccelerometer-mean()-X	180	numeric
+frequencyBodyAccelerometer-mean()-Y	180	numeric
+frequencyBodyAccelerometer-mean()-Z	180	numeric
+frequencyBodyAccelerometer-meanFreq()-X	180	numeric
+frequencyBodyAccelerometer-meanFreq()-Y	180	numeric
+frequencyBodyAccelerometer-meanFreq()-Z	180	numeric
+frequencyBodyAccelerometerJerk-mean()-X	180	numeric
+frequencyBodyAccelerometerJerk-mean()-Y	180	numeric
+frequencyBodyAccelerometerJerk-mean()-Z	180	numeric
+frequencyBodyAccelerometerJerk-meanFreq()-X	180	numeric
+frequencyBodyAccelerometerJerk-meanFreq()-Y	180	numeric
+frequencyBodyAccelerometerJerk-meanFreq()-Z	180	numeric
+frequencyBodyGyroscope-mean()-X	180	numeric
+frequencyBodyGyroscope-mean()-Y	180	numeric
+frequencyBodyGyroscope-mean()-Z	180	numeric
+frequencyBodyGyroscope-meanFreq()-X	180	numeric
+frequencyBodyGyroscope-meanFreq()-Y	180	numeric
+frequencyBodyGyroscope-meanFreq()-Z	180	numeric
+frequencyBodyAccelerometerMagnitude-mean()	180	numeric
+frequencyBodyAccelerometerMagnitude-meanFreq()	180	numeric
+frequencyBodyAccelerometerJerkMagnitude-mean()	180	numeric
+frequencyBodyAccelerometerJerkMagnitude-meanFreq()	180	numeric
+frequencyBodyGyroscopeMagnitude-mean()	180	numeric
+frequencyBodyGyroscopeMagnitude-meanFreq()	180	numeric
+frequencyBodyGyroscopeJerkMagnitude-mean()	180	numeric
+frequencyBodyGyroscopeJerkMagnitude-meanFreq()	180	numeric
+timeBodyAccelerometer-std()-X	180	numeric
+timeBodyAccelerometer-std()-Y	180	numeric
+timeBodyAccelerometer-std()-Z	180	numeric
+timeGravityAccelerometer-std()-X	180	numeric
+timeGravityAccelerometer-std()-Y	180	numeric
+timeGravityAccelerometer-std()-Z	180	numeric
+timeBodyAccelerometerJerk-std()-X	180	numeric
+timeBodyAccelerometerJerk-std()-Y	180	numeric
+timeBodyAccelerometerJerk-std()-Z	180	numeric
+timeBodyGyroscope-std()-X	180	numeric
+timeBodyGyroscope-std()-Y	180	numeric
+timeBodyGyroscope-std()-Z	180	numeric
+timeBodyGyroscopeJerk-std()-X	180	numeric
+timeBodyGyroscopeJerk-std()-Y	180	numeric
+timeBodyGyroscopeJerk-std()-Z	180	numeric
+timeBodyAccelerometerMagnitude-std()	180	numeric
+timeGravityAccelerometerMagnitude-std()	180	numeric
+timeBodyAccelerometerJerkMagnitude-std()	180	numeric
+timeBodyGyroscopeMagnitude-std()	180	numeric
+timeBodyGyroscopeJerkMagnitude-std()	180	numeric
+frequencyBodyAccelerometer-std()-X	180	numeric
+frequencyBodyAccelerometer-std()-Y	180	numeric
+frequencyBodyAccelerometer-std()-Z	180	numeric
+frequencyBodyAccelerometerJerk-std()-X	180	numeric
+frequencyBodyAccelerometerJerk-std()-Y	180	numeric
+frequencyBodyAccelerometerJerk-std()-Z	180	numeric
+frequencyBodyGyroscope-std()-X	180	numeric
+frequencyBodyGyroscope-std()-Y	180	numeric
+frequencyBodyGyroscope-std()-Z	180	numeric
+frequencyBodyAccelerometerMagnitude-std()	180	numeric
+frequencyBodyAccelerometerJerkMagnitude-std()	180	numeric
+frequencyBodyGyroscopeMagnitude-std()	180	numeric
+frequencyBodyGyroscopeJerkMagnitude-std()	180	numeric
