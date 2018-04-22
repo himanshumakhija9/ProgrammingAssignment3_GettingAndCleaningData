@@ -1,7 +1,7 @@
 library("dplyr")
 
 getwd()
-# setwd('C:/Users/hmakhija/Documents/Himanshu/emoocs/coursera/Course 3/assignment/UCI HAR Dataset')
+# filedir<- setwd('C:/Users/hmakhija/Documents/Himanshu/emoocs/coursera/Course 3/assignment/UCI HAR Dataset')
 
 # Getting data ------------------------------------------------------------
 
@@ -51,5 +51,5 @@ final<-tbl_df(final)
 final2<-final[,c(1,2,3,meancols,stdcols)]
 tidy<-aggregate(. ~subject_id + activity_id + activity_name, data=final2, FUN=mean)
 tidy<-tbl_df(tidy)
-tidy
+write.table(tidy,paste0(getwd(),"/final_tidy.txt"),row.names = FALSE)
 
