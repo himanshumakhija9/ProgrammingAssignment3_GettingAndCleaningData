@@ -9,88 +9,92 @@ There are two data sets produced:
 Variables
 The two datasets mentioned above share the identical 81 variables as below: For further explanations on the variables, "features_info.txt" should be referred.
 
-    subject
-    activityDesc
-    tBodyAcc-mean()-X
-    tBodyAcc-mean()-Y
-    tBodyAcc-mean()-Z
-    tBodyAcc-std()-X
-    tBodyAcc-std()-Y
-    tBodyAcc-std()-Z
-    tGravityAcc-mean()-X
-    tGravityAcc-mean()-Y
-    tGravityAcc-mean()-Z
-    tGravityAcc-std()-X
-    tGravityAcc-std()-Y
-    tGravityAcc-std()-Z
-    tBodyAccJerk-mean()-X
-    tBodyAccJerk-mean()-Y
-    tBodyAccJerk-mean()-Z
-    tBodyAccJerk-std()-X
-    tBodyAccJerk-std()-Y
-    tBodyAccJerk-std()-Z
-    tBodyGyro-mean()-X
-    tBodyGyro-mean()-Y
-    tBodyGyro-mean()-Z
-    tBodyGyro-std()-X
-    tBodyGyro-std()-Y
-    tBodyGyro-std()-Z
-    tBodyGyroJerk-mean()-X
-    tBodyGyroJerk-mean()-Y
-    tBodyGyroJerk-mean()-Z
-    tBodyGyroJerk-std()-X
-    tBodyGyroJerk-std()-Y
-    tBodyGyroJerk-std()-Z
-    tBodyAccMag-mean()
-    tBodyAccMag-std()
-    tGravityAccMag-mean()
-    tGravityAccMag-std()
-    tBodyAccJerkMag-mean()
-    tBodyAccJerkMag-std()
-    tBodyGyroMag-mean()
-    tBodyGyroMag-std()
-    tBodyGyroJerkMag-mean()
-    tBodyGyroJerkMag-std()
-    fBodyAcc-mean()-X
-    fBodyAcc-mean()-Y
-    fBodyAcc-mean()-Z
-    fBodyAcc-std()-X
-    fBodyAcc-std()-Y
-    fBodyAcc-std()-Z
-    fBodyAcc-meanFreq()-X
-    fBodyAcc-meanFreq()-Y
-    fBodyAcc-meanFreq()-Z
-    fBodyAccJerk-mean()-X
-    fBodyAccJerk-mean()-Y
-    fBodyAccJerk-mean()-Z
-    fBodyAccJerk-std()-X
-    fBodyAccJerk-std()-Y
-    fBodyAccJerk-std()-Z
-    fBodyAccJerk-meanFreq()-X
-    fBodyAccJerk-meanFreq()-Y
-    fBodyAccJerk-meanFreq()-Z
-    fBodyGyro-mean()-X
-    fBodyGyro-mean()-Y
-    fBodyGyro-mean()-Z
-    fBodyGyro-std()-X
-    fBodyGyro-std()-Y
-    fBodyGyro-std()-Z
-    fBodyGyro-meanFreq()-X
-    fBodyGyro-meanFreq()-Y
-    fBodyGyro-meanFreq()-Z
-    fBodyAccMag-mean()
-    fBodyAccMag-std()
-    fBodyAccMag-meanFreq()
-    fBodyBodyAccJerkMag-mean()
-    fBodyBodyAccJerkMag-std()
-    fBodyBodyAccJerkMag-meanFreq()
-    fBodyBodyGyroMag-mean()
-    fBodyBodyGyroMag-std()
-    fBodyBodyGyroMag-meanFreq()
-    fBodyBodyGyroJerkMag-mean()
-    fBodyBodyGyroJerkMag-std()
-    fBodyBodyGyroJerkMag-meanFreq()
 
+Colname	Length	Class
+activity_id	180	numeric
+activity_name	180	character
+subject_id	180	numeric
+timeBodyAccelerometer-mean()-X	180	numeric
+timeBodyAccelerometer-mean()-Y	180	numeric
+timeBodyAccelerometer-mean()-Z	180	numeric
+timeGravityAccelerometer-mean()-X	180	numeric
+timeGravityAccelerometer-mean()-Y	180	numeric
+timeGravityAccelerometer-mean()-Z	180	numeric
+timeBodyAccelerometerJerk-mean()-X	180	numeric
+timeBodyAccelerometerJerk-mean()-Y	180	numeric
+timeBodyAccelerometerJerk-mean()-Z	180	numeric
+timeBodyGyroscope-mean()-X	180	numeric
+timeBodyGyroscope-mean()-Y	180	numeric
+timeBodyGyroscope-mean()-Z	180	numeric
+timeBodyGyroscopeJerk-mean()-X	180	numeric
+timeBodyGyroscopeJerk-mean()-Y	180	numeric
+timeBodyGyroscopeJerk-mean()-Z	180	numeric
+timeBodyAccelerometerMagnitude-mean()	180	numeric
+timeGravityAccelerometerMagnitude-mean()	180	numeric
+timeBodyAccelerometerJerkMagnitude-mean()	180	numeric
+timeBodyGyroscopeMagnitude-mean()	180	numeric
+timeBodyGyroscopeJerkMagnitude-mean()	180	numeric
+frequencyBodyAccelerometer-mean()-X	180	numeric
+frequencyBodyAccelerometer-mean()-Y	180	numeric
+frequencyBodyAccelerometer-mean()-Z	180	numeric
+frequencyBodyAccelerometer-meanFreq()-X	180	numeric
+frequencyBodyAccelerometer-meanFreq()-Y	180	numeric
+frequencyBodyAccelerometer-meanFreq()-Z	180	numeric
+frequencyBodyAccelerometerJerk-mean()-X	180	numeric
+frequencyBodyAccelerometerJerk-mean()-Y	180	numeric
+frequencyBodyAccelerometerJerk-mean()-Z	180	numeric
+frequencyBodyAccelerometerJerk-meanFreq()-X	180	numeric
+frequencyBodyAccelerometerJerk-meanFreq()-Y	180	numeric
+frequencyBodyAccelerometerJerk-meanFreq()-Z	180	numeric
+frequencyBodyGyroscope-mean()-X	180	numeric
+frequencyBodyGyroscope-mean()-Y	180	numeric
+frequencyBodyGyroscope-mean()-Z	180	numeric
+frequencyBodyGyroscope-meanFreq()-X	180	numeric
+frequencyBodyGyroscope-meanFreq()-Y	180	numeric
+frequencyBodyGyroscope-meanFreq()-Z	180	numeric
+frequencyBodyAccelerometerMagnitude-mean()	180	numeric
+frequencyBodyAccelerometerMagnitude-meanFreq()	180	numeric
+frequencyBodyAccelerometerJerkMagnitude-mean()	180	numeric
+frequencyBodyAccelerometerJerkMagnitude-meanFreq()	180	numeric
+frequencyBodyGyroscopeMagnitude-mean()	180	numeric
+frequencyBodyGyroscopeMagnitude-meanFreq()	180	numeric
+frequencyBodyGyroscopeJerkMagnitude-mean()	180	numeric
+frequencyBodyGyroscopeJerkMagnitude-meanFreq()	180	numeric
+timeBodyAccelerometer-std()-X	180	numeric
+timeBodyAccelerometer-std()-Y	180	numeric
+timeBodyAccelerometer-std()-Z	180	numeric
+timeGravityAccelerometer-std()-X	180	numeric
+timeGravityAccelerometer-std()-Y	180	numeric
+timeGravityAccelerometer-std()-Z	180	numeric
+timeBodyAccelerometerJerk-std()-X	180	numeric
+timeBodyAccelerometerJerk-std()-Y	180	numeric
+timeBodyAccelerometerJerk-std()-Z	180	numeric
+timeBodyGyroscope-std()-X	180	numeric
+timeBodyGyroscope-std()-Y	180	numeric
+timeBodyGyroscope-std()-Z	180	numeric
+timeBodyGyroscopeJerk-std()-X	180	numeric
+timeBodyGyroscopeJerk-std()-Y	180	numeric
+timeBodyGyroscopeJerk-std()-Z	180	numeric
+timeBodyAccelerometerMagnitude-std()	180	numeric
+timeGravityAccelerometerMagnitude-std()	180	numeric
+timeBodyAccelerometerJerkMagnitude-std()	180	numeric
+timeBodyGyroscopeMagnitude-std()	180	numeric
+timeBodyGyroscopeJerkMagnitude-std()	180	numeric
+frequencyBodyAccelerometer-std()-X	180	numeric
+frequencyBodyAccelerometer-std()-Y	180	numeric
+frequencyBodyAccelerometer-std()-Z	180	numeric
+frequencyBodyAccelerometerJerk-std()-X	180	numeric
+frequencyBodyAccelerometerJerk-std()-Y	180	numeric
+frequencyBodyAccelerometerJerk-std()-Z	180	numeric
+frequencyBodyGyroscope-std()-X	180	numeric
+frequencyBodyGyroscope-std()-Y	180	numeric
+frequencyBodyGyroscope-std()-Z	180	numeric
+frequencyBodyAccelerometerMagnitude-std()	180	numeric
+frequencyBodyAccelerometerJerkMagnitude-std()	180	numeric
+frequencyBodyGyroscopeMagnitude-std()	180	numeric
+frequencyBodyGyroscopeJerkMagnitude-std()	180	numeric
+
+    
 
 The test data (i.e. 'X_test.txt', 'y_test.txt', 'subject_test.txt') are combined by using 'cbind'. Similary, the training data is processed accordingly. The combined test data and train data are merged by using 'rbind'.
 
